@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer_course_2020_pptr-vusual",
+  "version": "1.0.0",
+  "description": "Visual Regression Testing with PPTR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "o.konovalova",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.0.1",
+    "jest-image-snapshot": "^4.0.2",
+    "puppeteer": "^3.3.0"
+  }
+}
