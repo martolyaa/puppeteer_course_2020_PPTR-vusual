@@ -8,7 +8,7 @@ describe('Visual Regression Testing', () => {
     let page
 
     beforeAll(async function() {
-        browser = await puppeteer.launch({ headless: false })
+        browser = await puppeteer.launch({ headless: true })
         page = await browser.newPage()
     })
 
